@@ -1,3 +1,12 @@
+---
+title: "(FB) Feature Bagging 리뷰"
+categories: 
+  - blogging
+last_modified_at: 2020-09-27T13:00:00+09:00
+toc: true
+author_profile: false
+---
+
 ## **Paper**
 
 [dl.acm.org/doi/abs/10.1145/1081870.1081891?casa\_token=fJmH04B3mzMAAAAA:Qpesfom07GOIXjeXBWxcIkHNmHrdFTDtJyjE1VXV3HmWQtyeeTKQlb2RE3GQa7ALJ-lFWnYzSPPu](https://dl.acm.org/doi/abs/10.1145/1081870.1081891?casa_token=fJmH04B3mzMAAAAA:Qpesfom07GOIXjeXBWxcIkHNmHrdFTDtJyjE1VXV3HmWQtyeeTKQlb2RE3GQa7ALJ-lFWnYzSPPu)
