@@ -9,7 +9,7 @@ author_profile: false
 
 ## **Paper**
 
-[dl.acm.org/doi/abs/10.1145/1081870.1081891?casa\_token=fJmH04B3mzMAAAAA:Qpesfom07GOIXjeXBWxcIkHNmHrdFTDtJyjE1VXV3HmWQtyeeTKQlb2RE3GQa7ALJ-lFWnYzSPPu](https://dl.acm.org/doi/abs/10.1145/1081870.1081891?casa_token=fJmH04B3mzMAAAAA:Qpesfom07GOIXjeXBWxcIkHNmHrdFTDtJyjE1VXV3HmWQtyeeTKQlb2RE3GQa7ALJ-lFWnYzSPPu)
+[Feature Bagging](https://dl.acm.org/doi/abs/10.1145/1081870.1081891?casa_token=fJmH04B3mzMAAAAA:Qpesfom07GOIXjeXBWxcIkHNmHrdFTDtJyjE1VXV3HmWQtyeeTKQlb2RE3GQa7ALJ-lFWnYzSPPu)
 
 ---
 
@@ -27,7 +27,7 @@ Feature Bagging은 supervised learning에서 널리 사용되는 Bagging 아이�
 
 둘째, 'Local feature relevance'. object의 outlierness는 전체 변수 중 일부 변수들의 조합에서 더 잘 나타나기도 합니다 (only the subset of attributes is useful for detecting anmalous behavior). 전체 변수 (full-dimension)에는 outlierness를 평가하는데 방해가 되는 irrelevant attributes가 포함되어 있는 경우가 있기 때문입니다. 예를들어, 아래의 Figure 1을 보면 object ●의 outlierness는 변수 {1,2}의 관점에서 더 잘 드러나는 반면, object ■의 경우엔 변수 {3,4}의 관점에서 더 잘 나타나는 것을 알 수 있습니다. 또한, {1,2}에 {3}을 추가하여 만든 {1,2,3}에선 {1,2}에서 관측되던 object ●의 outlierness가 더이상 보이지 않는 걸 확인 할 수 있습니다. 즉, 차원이 늘어남에 따라 더 낮은 차원에서 관측되던 outlierness가 오히려 가려지는 경우가 생기는 것입니다.
 
-[##_Image|/assets/images/Example-Outliers-in-arbitrary-subspaces.png|alignCenter|data-filename="Example-Outliers-in-arbitrary-subspaces.png" data-origin-width="850" data-origin-height="263" data-ke-mobilestyle="widthContent"|Figure. 1. Example: Outliers in arbitrary subspaces. (retrieved from [3])||_##]
+[##_Image|/assets/images/OutlierDetection/FeatureBagging/Example-Outliers-in-arbitrary-subspaces.png|alignCenter|data-filename="Example-Outliers-in-arbitrary-subspaces.png" data-origin-width="850" data-origin-height="263" data-ke-mobilestyle="widthContent"|Figure. 1. Example: Outliers in arbitrary subspaces. (retrieved from [3])||_##]
 
 ---
 
