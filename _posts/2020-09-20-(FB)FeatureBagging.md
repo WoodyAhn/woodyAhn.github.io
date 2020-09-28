@@ -49,8 +49,7 @@ Feature Bagging의 경우엔 observation sampling을 하지 않고 변수들만 
 
 둘째, 'Combination function'. T개의 데이터에 classical outlier detection 모델 (이 경우, LOF\[4\])을 적합하여 얻은 T개의 outlier score vector를 combine 하는 방법으로 이 논문은 2가지를 제안합니다. Breath-First 방법과 Cumulative sum 방법입니다. 이 두가지 combination function은 다음파트에서 설명드리도록 하겠습니다. 
 
-
-[##_Image|kage@mXKY2/btqIqnmGsHq/s9UlOKjYdkXjGqdIYf1Mzk/img.png|alignCenter|data-filename="algorithm.png" data-origin-width="492" data-origin-height="424" data-ke-mobilestyle="widthContent"|Figure 2. The general framework for combining outlier detection techniques (retrieved from [1])||_##]
+{% include figure image_path="/assets/images/OutlierDetection/FeatureBagging/fig3.png" alt="this is a placeholder image" caption="Figure 3.  Illustration of the Breadth-First approach for com- bining outlier detection scores. (retrieved from [1])" %}
 
 **COMBINE() function**
 
@@ -60,13 +59,15 @@ Breath-First 방법은 T개의 outlier score vector에서 1위를 차지한 (out
 
 이해를 돕는 그림과 algorithm을 Figure3과 Figure4에서 확인할 수 있습니다.
 
-[##_Image|kage@cKp0yb/btqIAOW7K03/kPHThhhFudLPMN8X6VjE91/img.png|alignCenter|data-filename="스크린샷 2020-09-12 오후 4.03.22.png" data-origin-width="411" data-origin-height="182" data-ke-mobilestyle="widthContent"|Figure 3.&nbsp; Illustration of the Breadth-First approach for com- bining outlier detection scores. (retrieved from [1])||_##][##_Image|kage@uWf81/btqIxYy92uL/1Gwjkka1DrBI0RSMnyjh30/img.png|alignCenter|data-filename="스크린샷 2020-09-12 오후 3.54.30.png" data-origin-width="424" data-origin-height="382" data-ke-mobilestyle="widthContent"|Figure 4. The Breadth-First scheme for combining outlier detection scores. (retrieved from [1])||_##]
+
+{% include figure image_path="/assets/images/OutlierDetection/FeatureBagging/fig4.png" alt="this is a placeholder image" caption="Figure 4. The Breadth-First scheme for combining outlier detection scores. (retrieved from [1])" %}
+
 
 **(ii) Cumulative Sum**
 
 T개의 outlier score vector를 observation 기준으로 더합니다. 즉, 한 object의 최종 outlier score가 Feature Bagging을 통해 얻은 T개의 outlier score를 전부 합한 값으로 결정됩니다.
 
-[##_Image|kage@qgbqh/btqIz4FXejX/kUFkwZnmkFcP2MRstb4pDK/img.png|alignCenter|data-filename="스크린샷 2020-09-12 오후 3.53.17.png" data-origin-width="430" data-origin-height="157" data-ke-mobilestyle="widthContent"|Figure 5. The Cumulative Sum approach for combining outlier detection scores. (retrieved from [1])||_##]
+{% include figure image_path="/assets/images/OutlierDetection/FeatureBagging/fig4.png" alt="this is a placeholder image" caption="Figure 5. The Cumulative Sum approach for combining outlier detection scores. (retrieved from [1])" %}
 
 ---
 
