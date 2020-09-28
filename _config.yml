@@ -97,7 +97,7 @@ analytics:
 author:
   name             : "안재형"
   avatar           : "/assets/images/bio-photo.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A persistent learner, now studying data science"
+  bio              : "A persistent learner, now mainly studying Outlier Detection in High-dimensional data"
   location         : "Republic of Korea"
   email            :
   links:
