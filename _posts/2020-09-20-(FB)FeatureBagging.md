@@ -1,5 +1,5 @@
 ---
-title: "\[Outlier Detection in High-dimensional data\] (FB) Feature Bagging 리뷰"
+title: "[Outlier Detection in High-dimensional data] (FB) Feature Bagging 리뷰"
 categories: 
   - OutlierDetection
 last_modified_at: 2020-09-20T13:00:00+09:00
