@@ -97,7 +97,7 @@ analytics:
 author:
   name             : "안재형"
   avatar           : "/assets/images/bio-photo.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data science 관련 내용을 기록하는 블로그입니다."
+  bio              : "A persistent learner, now studying data science"
   location         : "Republic of Korea"
   email            :
   links:
