@@ -1,12 +1,12 @@
 ---
-  title: "[Outlier Detection in High-dimensional data] (IF) Isolation Forest 리뷰"
+title: "[Outlier Detection in High-dimensional data] (IF) Isolation Forest 리뷰"
 categories: 
   - OutlierDetection
 last_modified_at: 2020-09-21T13:00:00+09:00
 toc: true
 author_profile: true
-use_math: true
 ---
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} });</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
 
 ## Isolation Forest 논문 리뷰
 
