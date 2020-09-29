@@ -93,7 +93,7 @@ iForest에 있는 각각의 iTree를 이용해 i번째 데이터 포인트가 te
 
 Isolation Forest의 기본적인 아이디어는 "anomaly가 normal 포인트 들보다 수가 적고 데이터 값이 다르다"는 가정에서 시작됩니다. 예를 들어, 변수 X들로 이루어진 feature space에 데이터 포인트들이 아래의 그림과 같이 놓여있다고 생각해보죠. 이때, 빨간색으로 표시된 $x\_{0}$는 anomaly 포인트 이고 파란색으로 표시된 $x\_{i}$는 normal 포인트 입니다. normal 포인트인 $x\_{i}$는 여러 데이터들과 가까이 있는 반면, anomaly인 $x\_{0}$는 다른 데이터들과 확연히 떨어져 있고 주변에 다른 데이터 포인트들이 많지 않은 걸 확인할 수 있습니다.
 
-{% include figure image_path="/assets/images/OutlierDetection/IsolatoinForest/fig1.png" alt="this is a placeholder image" caption=" " %}
+{% include figure image_path="/assets/images/OutlierDetection/IsolatoinForest/fig1.png" alt="this is a placeholder image" caption="Figure 1." %}
 
 iTree는 위 관찰에 근거하여 고안되었습니다. 이 feature space를 어떠한 규칙 없이 random split을 통해 partition 하는데, 이 partition으로 생긴 모든 sub-region들이 단 하나의 데이터 포인트를 가지고 있을 때까지 반복하여 split을 진행하는 겁니다. 이때, 어떤 데이터 포인트가 단 하나의 region에 존재하게 되는 상황을 "isolation"이라고 부릅니다. 그랬을 때, 밀집하여 있는 normal 포인트 $x\_{i}$가 random partition을 통해 isolation 되는데 까지 걸린 split을 보여준 게 위의 그림 (a)입니다. isolation 되는데 총 12번의 split이 소요되었습니다. 반면 그림 (b)의 anomaly인 $x\_{0}$는 isolation 되는데 4번의 split 만이 소요되었습니다. 즉, anomaly일 때 isolation에 사용되는 split이 더 적은 것이죠. 
 
