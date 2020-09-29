@@ -8,13 +8,9 @@ author_profile: true
 ---
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} });</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
 
-## Isolation Forest 논문 리뷰
+## Paper
 
-2008년에 발표된 _Isolation Forest_ 논문을 바탕으로 요약한 글입니다.
-
-본문의 표현은 원문의 내용을 참고하여 작성하였습니다.
-
-(Liu, Fei Tony, Kai Ming Ting, and Zhi-Hua Zhou. ”Isolation forest.” In 2008 Eighth IEEE International Conference on Data Mining, pp. 413-422. IEEE, 2008.)
+[Isolation Forest](https://www.researchgate.net/publication/224384174_Isolation_Forest)
 
 ---
 
