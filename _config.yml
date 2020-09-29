@@ -104,12 +104,16 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://woodyahn.tistory.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/%EC%9E%AC%ED%98%95-%EC%95%88-321094164/"    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/WoodyAhn"
+      url: "https://github.com/WoodyAhn"  
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "jayahn0104@gmail.com"
+
 
 # Site Footer
 footer:
@@ -117,6 +121,9 @@ footer:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://woodyahn.tistory.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/%EC%9E%AC%ED%98%95-%EC%95%88-321094164/"    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/WoodyAhn"
