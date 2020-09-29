@@ -105,7 +105,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://woodyahn.tistory.com/"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin-in"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/%EC%9E%AC%ED%98%95-%EC%95%88-321094164/"    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
