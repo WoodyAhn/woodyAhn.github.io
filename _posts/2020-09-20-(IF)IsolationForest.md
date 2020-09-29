@@ -18,19 +18,6 @@ author_profile: true
 
 ---
 
-## **Contents**
-
--   **Introduction**
-    
--   **Basic Idea**
-    
--   **Methodology**
-    
--   **Conclusion**
-    
-
----
-
 ## **Introduction**
 
 **Anomaly detection 이란?**
